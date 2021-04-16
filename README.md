@@ -2,6 +2,8 @@
 
 A low-cost approach on a Wattmeter using a single-phase split-core current transformer and PIC16F628A. The prototype performed the most accuracy when the Input Voltage is around 4 to 5 Volts.
 
+![prototype_gif](media/prototype.gif)
+
 ## Description
 
 The project utilizes the built-in comparator of PIC16. The configuration charges to capacitors up to 2.5 Volts then discharges and recharges it for 1024 cycles to achieve a 10-bit resolution accuracy.
